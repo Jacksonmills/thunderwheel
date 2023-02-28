@@ -64,26 +64,6 @@ const GlobalStyles = createGlobalStyle`
   #__next {
     isolation: isolate;
   }
-  /* FONTS */
-  @font-face {
-    font-family: 'firaCodeRegular';
-    src: url('/fonts/FiraCode/FiraCode-Regular.ttf');
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'firaCodeBold';
-    src: url('/fonts/FiraCode/FiraCode-Bold.ttf');
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
-  /* PORTALS */
-  #modal {
-    position: relative;
-    z-index: 999;
-  }
 `;
 
 export default GlobalStyles;
